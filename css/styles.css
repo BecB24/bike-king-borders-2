@@ -1,0 +1,548 @@
+BASE
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e7e8;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 40px;
+    background: #E0E7E8;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #556393;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+p {
+    padding: 10px;
+    color: #556393;
+
+}
+
+
+/*banner*/
+.banner img {
+    min-width: calc(100% + 80px);
+    margin-left: -40px;
+}
+
+/*main*/
+.over-form {
+    width: 100%;
+    display: flex;
+
+}
+.bkbtext{
+    text-align: center;
+}
+
+.overview {
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    width: 50%;
+    color: #556393;
+}
+
+.homeaddress{
+    text-align: center;
+}
+
+.offer-trip {
+    display: flex;
+    justify-content: space-between;
+}
+.opening-trip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.monthly-offers {
+    width: 60%;
+}
+
+.monthly-trio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.monthly-offer{
+    width: 33%;
+}
+.monthly-offers h2 {
+    /*display: flex;
+    justify-content: center;
+    margin: 20px;*/
+}
+
+
+
+.monthlytext {
+    padding: 5px;
+    text-align: center;
+    color: #556393;
+
+}
+
+
+.monthlyimage {
+   padding: 5px;
+
+}
+
+.trip-advisor img {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 180px;
+}
+h2{
+    text-align: center;
+    color: #3e496d;
+}
+
+.opening-hours h3 {
+    align-items: center;
+    text-align: center;
+}
+
+/*.opening-trip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}*/
+
+/*shop*/
+.shop-title {
+    margin: 0 0 10px 30px;
+    font-size: 30px;
+    color: rgb(85, 99, 147);
+}
+
+.gallery-items {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery-product {
+    width: 50%;
+}
+
+.gallery-product img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.shop-gallery-items {
+    display: block;
+    gap: 50px;
+}
+
+.shop-product {
+    width: 100%;
+}
+
+.shop-product img {
+    width: 510px;
+    height: 370px;
+
+    
+}
+
+.info-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0 0 0;
+    border-top: 3px solid black;
+    padding: 30px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+.bikename, .price {
+    text-align: left;
+}
+.bike-name{
+    text-align: left;
+}
+
+
+.hire-shop {
+    font-size: 15px;
+    color: rgb(85, 99, 147);
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+
+}
+
+
+.shop-title{
+    text-align: center;
+    padding: 20px;
+}
+.our-shop{
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+    color: #3e496d;
+    font-size: 18px;
+}
+.shop-banner{
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+}
+.greenbike{
+   max-width: 100%;
+   height: 250px;
+   margin: 30px;
+   padding: 10px;
+
+}
+
+.bikename, .price, li {
+    color: #556393;
+}
+
+
+/*form*/
+.form-field h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #8CC5A3;
+
+}
+
+.createaccount {
+    padding: 10px;
+    
+}
+
+form {
+    display: block;
+    margin-top: 0px;
+    background: #8CC5A3;
+
+}
+
+.formField {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-field input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-field-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.registerForm {
+    background: #8CC5A3;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.formField {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 33.33333%;
+    padding: 0 10px;
+}
+
+.formField-textarea,
+.formField-submit {
+    width: 100%;
+}
+
+.formField input:not([type="submit"]) {
+    height: 45px;
+}
+
+.formField textarea {
+    height: 100px;
+}
+
+.formField input:not([type="submit"]),
+.formField textarea {
+    padding: 10px;
+}
+
+.formSubmit {
+    width: 100%;
+    background-color: rgb(85, 99, 147);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.formSubmit:hover {
+    background-color: #4cae4c;
+}
+
+.info-panel {
+    width: 33.3333%;
+    text-align: center;
+}
+
+.info-panel {
+    border-right: 3px solid #000;
+}
+
+.info-panel.contact {
+    border-right: none;
+}
+
+.info-panel p {
+    color: #000;
+}
+.login {
+    background: #8CC5A3;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    display:flex;
+    justify-content: space-between;
+    padding:12px 0 60px 0;
+    background-color: rgb(98, 110, 147);
+    color: #fff;
+}
+.footer .socialIcons {
+    display:flex;
+    gap:10px;
+}
+.footer .socialIcons img {
+    width:25px;
+    height:auto;
+}
+.footerNav {
+    display:flex;
+}
+.footerNav h3 {
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:10px;
+    
+}
+.footerNav .navItem {
+    width:140px;
+    flex-shrink:0;
+    padding:0 15px;
+}
+.footerNav .navItem li {
+    list-style:none;
+    margin-bottom:10px;
+}
+.footerNav .navItem li:last-of-type {
+    margin-bottom:0;
+}
+.footerNav .navItem a {
+    font-size:10px;
+    font-weight:400;
+    color: #fff;
+}
+
+/* Register home */
+.registerFormHome .formField {
+    width:100%;
+    text-align: left;
+    padding:0;
+}
+.registerFormHome .formfield-checkbox {
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.registerFormHome .login-promt {
+    margin-top:20px;
+}
+.registerFormHome .login-promt p {
+    padding:0;
+    margin-bottom:10px;
+}
+
+
+/* Media Querys */
+
+
+@media(max-width:1010px) {
+
+    main {
+        border: none;
+        margin: 0 auto;
+        padding: 0 40px;
+        background: #E0E7E8;
+    }
+
+    .header {
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        padding: 5px;
+    }
+
+    .over-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .overview{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .offer-trip {
+        flex-direction: column;
+        align-items: center;
+    }
+    .monthlytext{
+        font-size: 25px;
+    }
+
+    .info-items {
+        font-size: 10px;
+    }
+    .monthly-trio {
+        flex-wrap:wrap;
+    }
+    .monthly-offer {
+        width:100%;
+        margin-bottom:20px;
+    }
+    .opening-trip{
+        margin: 0px;
+    }
+    .footer {
+        display:block;
+    }
+    .footerNav {
+        flex-wrap:wrap;
+    }
+    .footerNav .navItem {
+        width:50%;
+        margin-bottom:20px;
+        padding:0;
+    }
+    .footer .socialIcons {
+        margin-bottom:20px;
+    }
+
+    .shop-banner{
+        flex-wrap: wrap;
+    }
+    .our-shop .greenbike {
+        max-width: 100%;
+    }
+    .gallery-items{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media(max-width:768px) {
+    .footerNav .navItem {
+        width:100%;
+    }
+    .footerNav .navItem:last-of-type {
+        margin-bottom:0;
+    }
+}
+
